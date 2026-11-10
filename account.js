@@ -1,6 +1,6 @@
 (function () {
   "use strict";
-  var WORKER = "sciencequest-auth.avgeekauspodcast.workers.dev";   // <-- paste your auth Worker URL here
+  var WORKER = "https://sciencequest-auth.avgeekauspodcast.workers.dev/";   // <-- paste your auth Worker URL here
   var AK = "sciquest-acct", KEYS = ["sciquest", "sciquest-fx", "sciquest-sets"];
   var acct = null, lastPush = "", box = null, mode = "login";
   try { acct = JSON.parse(localStorage.getItem(AK)); } catch (e) {}
