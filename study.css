@@ -1,0 +1,18 @@
+#studyModal{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:96;display:flex;align-items:center;justify-content:center;padding:14px}
+#studyModal .sbox{background:var(--panel);color:var(--ink);border-radius:22px;max-width:640px;width:100%;max-height:90vh;overflow:auto;padding:22px;animation:rise .25s both}
+#studyModal h1{font-size:1.5rem}
+#studyModal textarea,#studyModal input[type=text],#studyModal select{width:100%;font:inherit;font-weight:700;color:var(--ink);background:var(--panel);
+border:2px solid var(--line);border-radius:14px;padding:10px 12px;margin:6px 0}
+#studyModal textarea{min-height:160px;resize:vertical}
+#studyModal .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:8px 0}
+#studyModal .row>*{flex:1}
+#studyModal .setrow{display:flex;gap:8px;align-items:center;border:2px solid var(--line);border-radius:14px;padding:10px 12px;margin:8px 0}
+#studyModal .setrow span{flex:1;font-weight:800}
+#studyModal .setrow .btn{padding:8px 14px;font-size:.8rem}
+#studyModal .status{font-weight:800;min-height:22px;margin:8px 0}
+#studyModal .status.err{color:var(--badt)}
+#studyModal .opts{margin:14px 0}
+#studyModal .res{border-radius:14px;padding:12px;margin:10px 0;font-weight:800}
+#studyModal .res.good{background:var(--goodbg);color:var(--goodt)}
+#studyModal .res.bad{background:var(--badbg);color:var(--badt)}
+#studyModal .tip{font-size:.85rem;color:var(--mut);font-weight:700}
